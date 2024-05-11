@@ -13,11 +13,11 @@ let package = Package(
         .package(
             name: "YbridOpus",
             url: "https://github.com/vector-im/opus-swift",
-            from: "0.8.4"),
+            from: "0.8.0"),
         .package(
             name: "YbridOgg",
             url: "https://github.com/vector-im/ogg-swift.git",
-            from: "0.8.3")
+            from: "0.8.0")
     ],
     targets: [
         // To debug with a local framework
